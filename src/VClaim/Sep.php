@@ -27,6 +27,12 @@ class Sep extends BpjsWebService
         return json_decode($response, true);
     }
 
+    public function printSEP($keyword)
+    {
+        $response = $this->get('SEP/'.$keyword);
+        return json_decode($response);
+    }
+
     public function suplesiJasaRaharja($noKartu, $tglPelayanan)
     {
         $response = $this->get('sep/JasaRaharja/Suplesi/'.$noKartu.'/tglPelayanan/'.$tglPelayanan);
