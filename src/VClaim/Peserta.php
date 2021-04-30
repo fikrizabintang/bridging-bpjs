@@ -1,0 +1,19 @@
+<?php
+namespace Fikrizabintang\Bpjs\VClaim;
+
+use Fikrizabintang\Bpjs\BpjsWebService;
+
+class Peserta extends BpjsWebService
+{
+    public function getByNoKartu($noKartu, $tglPelayananSEP)
+    {
+        $response = $this->get('Peserta/nokartu/'.$noKartu.'/tglSEP/'.$tglPelayananSEP);
+        return json_decode($response, true);
+    }
+    public function getByNIK($nik, $tglPelayananSEP)
+    {
+        $response = $this->get('Peserta/nik/'.$nik.'/tglSEP/'.$tglPelayananSEP);
+        return json_decode($response, true);
+    }
+
+}
