@@ -5,12 +5,6 @@
 ```sh
 composer require fikrizabintang/bpjs
 ```
-## Update Fitur
-```sh
-1 Mei 2021 
-Pembuatan Rencana Kontrol
-```
-
 ## Use Vclaim
 ```env
 public function vclaimConfig()
@@ -35,6 +29,11 @@ public function getByNoKartu($noKartu)
 {
     return $this->peserta()->getByNoKartu($noKartu, Carbon::now()->format('Y-m-d'););
 }
+```
+## Update Fitur
+```sh
+1 Mei 2021 
+Pembuatan Rencana Kontrol
 ```
 
 ## Contributing
