@@ -1,6 +1,9 @@
 # bridging-bpjs
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
+## Installation
+composer require fikrizabintang/bpjs
+
 ## Update Fitur 1 Mei 2021 Pembuatan Rencana Kontrol
 
 ## Contributing
