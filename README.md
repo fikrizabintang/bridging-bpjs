@@ -6,6 +6,32 @@
 composer require fikrizabintang/bpjs
 ```
 
+## Use Vclaim
+```use vclaim
+public function vclaimConfig()
+{
+  $setting            = $this->bpjs;
+  return [
+      'cons_id'       => $setting->cons_id,
+      'secret_key'    => $setting->cons_key,
+      'base_url'      => 'https://new-api.bpjs-kesehatan.go.id:8080',
+      'service_name'  => 'new-vclaim-rest'
+  ];
+}
+```
+
+## Use Get Peserta
+```use vclaim
+public function peserta(){
+  return new Peserta($this->vclaimConf());
+}
+
+public function getByNoKartu($noKartu)
+{
+    return $this->peserta()->getByNoKartu($noKartu, Carbon::now()->format('Y-m-d'););
+}
+```
+
 ## Update Fitur 1 Mei 2021 Pembuatan Rencana Kontrol
 
 ## Contributing
