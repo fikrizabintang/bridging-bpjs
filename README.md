@@ -1,12 +1,6 @@
 # bridging-bpjs
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/fikrizabintang/bpjs"></a>
-</p>
-
-
 ## Update Fitur 1 Mei 2021 Pembuatan Rencana Kontrol
 
 ## Contributing
