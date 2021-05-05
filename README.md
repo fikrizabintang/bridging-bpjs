@@ -8,8 +8,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-Update Fitur 1 Mei 2021
-Pembuatan Rencana Kontrol
+
+## Update Fitur 1 Mei 2021 Pembuatan Rencana Kontrol
 
 ## Contributing
 
