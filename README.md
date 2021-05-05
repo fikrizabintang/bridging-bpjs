@@ -7,7 +7,7 @@ composer require fikrizabintang/bpjs
 ```
 
 ## Use Vclaim
-```use vclaim
+```env
 public function vclaimConfig()
 {
   $setting            = $this->bpjs;
@@ -21,7 +21,7 @@ public function vclaimConfig()
 ```
 
 ## Use Get Peserta
-```use vclaim
+```env
 public function peserta(){
   return new Peserta($this->vclaimConf());
 }
