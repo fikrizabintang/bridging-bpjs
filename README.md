@@ -10,3 +10,7 @@
 
 Update Fitur 1 Mei 2021
 Pembuatan Rencana Kontrol
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
