@@ -1,0 +1,30 @@
+{
+    "name": "fikrizabintang/bpjs",
+    "description": "Service Integrasi BPJS",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fikrizabintang\\Bpjs\\": "src/Bpjs"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fikriza Bintang",
+            "email": "fikrizabintang@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "nullpunkt/lz-string-php": "^1.3",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Bpjs\\Bridging\\BridgingBpjsServiceProvider"]
+        }
+    }
+}
