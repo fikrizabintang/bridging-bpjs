@@ -22,5 +22,12 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Fikrizabintang\\Bpjs\\BridgingBpjsServiceProvider"
+        ]
+      }
     }
 }
