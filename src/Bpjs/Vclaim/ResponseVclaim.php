@@ -9,9 +9,9 @@ class ResponseVclaim
 {
     public function responseVclaim($response, $key)
     {
-        $result = json_decode($response);
-		if ($result->metaData->code == "200" && is_string($result->response)) {
-            return self::doMaping($result->metaData, $result->response, $key);
+        $result = json_decode($response, true);
+		if ($result['metaData']['code'] == "200" && is_string($result['response'])) {
+            return self::doMaping($result['metaData'], $result['response'], $key);
         }
         return $result;
     }
