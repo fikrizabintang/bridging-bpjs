@@ -1,9 +1,9 @@
 <?php
 
-namespace Bpjs\Bridging\Vclaim;
+namespace Fikrizabintang\Bpjs\Vclaim;
 
-use Bpjs\Bridging\ManageService;
-use Bpjs\Bridging\GenerateBpjs;
+use Fikrizabintang\Bpjs\ManageService;
+use Fikrizabintang\Bpjs\GenerateBpjs;
 use Dotenv\Dotenv;
 
 class ConfigVclaim extends ManageService

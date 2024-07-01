@@ -2,8 +2,8 @@
 
 namespace Bpjs\Bridging\Vclaim;
 
-// use Bpjs\Bridging\Bridge;
-use Bpjs\Bridging\CurlFactory;
+// use Fikrizabintang\Bpjs\Bridge;
+use Fikrizabintang\Bpjs\CurlFactory;
 
 class BridgeVclaim extends CurlFactory
 {

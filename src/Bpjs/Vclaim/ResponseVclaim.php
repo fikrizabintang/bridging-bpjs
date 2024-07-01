@@ -1,9 +1,9 @@
 <?php
 
-namespace Bpjs\Bridging\Vclaim;
+namespace Fikrizabintang\Bpjs\Vclaim;
 
 use LZCompressor\LZString;
-use Bpjs\Bridging\GenerateBpjs;
+use Fikrizabintang\Bpjs\GenerateBpjs;
 
 class ResponseVclaim
 {

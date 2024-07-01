@@ -1,6 +1,6 @@
 <?php
 
-namespace Bpjs\Bridging;
+namespace Fikrizabintang\Bpjs;
 
 use Illuminate\Support\ServiceProvider;
 

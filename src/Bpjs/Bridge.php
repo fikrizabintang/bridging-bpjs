@@ -1,6 +1,6 @@
 <?php 
 
-namespace Bpjs\Bridging;
+namespace Fikrizabintang\Bpjs;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;

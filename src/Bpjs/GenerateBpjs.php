@@ -1,6 +1,6 @@
 <?php
 
-namespace Bpjs\Bridging;
+namespace Fikrizabintang\Bpjs;
 
 date_default_timezone_set('UTC');
 
