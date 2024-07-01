@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Fikrizabintang\\Bpjs\\": "src/"
+            "Fikrizabintang\\Bpjs\\": "src/Bpjs"
         }
     },
     "minimum-stability": "beta",
