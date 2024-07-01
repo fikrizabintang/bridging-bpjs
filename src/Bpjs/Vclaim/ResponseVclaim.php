@@ -20,7 +20,7 @@ class ResponseVclaim
     {
         $data = [
             "metaData" => $metaData,
-            "response" => json_decode($this->decompressed(GenerateBpjs::stringDecrypt($key, $response)))
+            "response" => json_decode($this->decompressed(GenerateBpjs::stringDecrypt($key, $response)), true)
         ];
 		return $data;
     }
