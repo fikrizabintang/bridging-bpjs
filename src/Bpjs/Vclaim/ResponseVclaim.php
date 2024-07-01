@@ -13,7 +13,7 @@ class ResponseVclaim
 		if ($result->metaData->code == "200" && is_string($result->response)) {
             return self::doMaping($result->metaData, $result->response, $key);
         }
-        return json_encode($result);
+        return $result;
     }
 
     public function doMaping($metaData, $response, $key)
@@ -22,7 +22,7 @@ class ResponseVclaim
             "metaData" => $metaData,
             "response" => json_decode($this->decompressed(GenerateBpjs::stringDecrypt($key, $response)))
         ];
-		return json_encode($data);
+		return $data;
     }
 
     protected function decompressed($dataString)
