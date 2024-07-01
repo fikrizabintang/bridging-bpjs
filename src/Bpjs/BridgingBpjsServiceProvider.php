@@ -23,7 +23,7 @@ class BridgingBpjsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $configPath = __DIR__ . '/../config/vclaim.php';
+        $configPath = __DIR__ . '/../../config/vclaim.php';
         $this->publishes([
             $configPath => config_path('vclaim.php'),
         ], 'config');
