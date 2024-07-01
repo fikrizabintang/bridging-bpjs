@@ -5,9 +5,10 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Fikrizabintang\\Bpjs\\": "src/Bpjs"
+            "Fikrizabintang\\Bpjs\\": "src/"
         }
     },
+    "minimum-stability": "beta",
     "authors": [
         {
             "name": "Fikriza Bintang",
@@ -21,10 +22,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": ["Bpjs\\Bridging\\BridgingBpjsServiceProvider"]
-        }
     }
 }
